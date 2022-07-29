@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 using Microsoft.Build.Construction;
 using Microsoft.Build.Evaluation;
 
@@ -19,7 +20,8 @@ namespace SourceCombiner
             "AssemblyInfo.cs"
         };
 
-        private static void Main(string[] args)
+
+    private static void Main(string[] args)
         {
             if ((args.Length == 1 && HelpCommands.Contains(args[0])) || args.Length < 2)
             {
@@ -27,8 +29,8 @@ namespace SourceCombiner
                 return;
             }
 
-            var solutionFilePath = args[0];
-            var outputFilePath = args[1];
+            var solutionFilePath = new DirectoryInfo(@"C:\Users\kevin\source\Repos\kns98\Newt\");
+            var outputFilePath = @"d:\tmp\out.cs";
             var openFile = false;
             var minify = false;
 
@@ -81,18 +83,23 @@ namespace SourceCombiner
             return sb.ToString();
         }
 
-        private static List<string> GetSourceFileNames(string solutionFilePath)
+        private static List<string> GetSourceFileNames(DirectoryInfo solutionFilePath)
         {
+
             var files = new List<string>();
-            var solutionFile = SolutionFile.Parse(solutionFilePath);
-            foreach (var project in solutionFile.ProjectsInOrder.Select(p => new Project(p.AbsolutePath)))
-            foreach (var item in project.AllEvaluatedItems.Where(item => item.ItemType == "Compile"))
-                if (!SourceFilesToIgnore.Contains(Path.GetFileName(item.EvaluatedInclude)))
-                {
-                    var projectFolder = Path.GetDirectoryName(project.FullPath);
-                    var fullpath = Path.Combine(projectFolder, item.EvaluatedInclude);
-                    files.Add(fullpath);
-                }
+
+            IEnumerable<FileInfo> fileList = solutionFilePath.GetFiles("*.cs", SearchOption.AllDirectories);
+
+            IEnumerable<FileInfo> fileQuery =
+                from file in fileList
+                where file.Length > 0
+                orderby file.Name
+                select file;
+
+            foreach (FileInfo file in fileQuery)
+            {
+                files.Add(file.FullName);
+            }
 
             return files;
         }

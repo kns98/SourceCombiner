@@ -34,3 +34,9 @@ C:\Users\kevin\Source\Repos\kns98\SourceCombiner\SourceCombiner\SourceCombiner\o
 C:\Users\kevin\Source\Repos\kns98\SourceCombiner\SourceCombiner\SourceCombiner\obj\Debug\SourceCombiner.csproj.CopyComplete
 C:\Users\kevin\Source\Repos\kns98\SourceCombiner\SourceCombiner\SourceCombiner\obj\Debug\SourceCombiner.exe
 C:\Users\kevin\Source\Repos\kns98\SourceCombiner\SourceCombiner\SourceCombiner\obj\Debug\SourceCombiner.pdb
+C:\Users\kevin\Source\Repos\kns98\SourceCombiner\SourceCombiner\SourceCombiner\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\kevin\Source\Repos\kns98\SourceCombiner\SourceCombiner\SourceCombiner\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\kevin\Source\Repos\kns98\SourceCombiner\SourceCombiner\SourceCombiner\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\kevin\Source\Repos\kns98\SourceCombiner\SourceCombiner\SourceCombiner\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\kevin\Source\Repos\kns98\SourceCombiner\SourceCombiner\SourceCombiner\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\kevin\Source\Repos\kns98\SourceCombiner\SourceCombiner\SourceCombiner\bin\Debug\System.Threading.Tasks.Dataflow.xml
