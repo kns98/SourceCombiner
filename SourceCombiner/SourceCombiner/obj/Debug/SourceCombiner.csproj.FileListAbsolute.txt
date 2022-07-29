@@ -23,3 +23,14 @@ C:\Git\Repos\SourceCombiner\SourceCombiner\SourceCombiner\bin\Debug\Microsoft.Bu
 C:\Git\Repos\SourceCombiner\SourceCombiner\SourceCombiner\bin\Debug\Microsoft.Build.Engine.dll
 C:\Git\Repos\SourceCombiner\SourceCombiner\SourceCombiner\obj\Debug\SourceCombiner.exe
 C:\Git\Repos\SourceCombiner\SourceCombiner\SourceCombiner\obj\Debug\SourceCombiner.pdb
+C:\Users\kevin\Source\Repos\kns98\SourceCombiner\SourceCombiner\SourceCombiner\bin\Debug\SourceCombiner.exe.config
+C:\Users\kevin\Source\Repos\kns98\SourceCombiner\SourceCombiner\SourceCombiner\bin\Debug\SourceCombiner.exe
+C:\Users\kevin\Source\Repos\kns98\SourceCombiner\SourceCombiner\SourceCombiner\bin\Debug\SourceCombiner.pdb
+C:\Users\kevin\Source\Repos\kns98\SourceCombiner\SourceCombiner\SourceCombiner\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\kevin\Source\Repos\kns98\SourceCombiner\SourceCombiner\SourceCombiner\bin\Debug\Microsoft.Build.Engine.dll
+C:\Users\kevin\Source\Repos\kns98\SourceCombiner\SourceCombiner\SourceCombiner\obj\Debug\SourceCombiner.csproj.AssemblyReference.cache
+C:\Users\kevin\Source\Repos\kns98\SourceCombiner\SourceCombiner\SourceCombiner\obj\Debug\SourceCombiner.csproj.SuggestedBindingRedirects.cache
+C:\Users\kevin\Source\Repos\kns98\SourceCombiner\SourceCombiner\SourceCombiner\obj\Debug\SourceCombiner.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Source\Repos\kns98\SourceCombiner\SourceCombiner\SourceCombiner\obj\Debug\SourceCombiner.csproj.CopyComplete
+C:\Users\kevin\Source\Repos\kns98\SourceCombiner\SourceCombiner\SourceCombiner\obj\Debug\SourceCombiner.exe
+C:\Users\kevin\Source\Repos\kns98\SourceCombiner\SourceCombiner\SourceCombiner\obj\Debug\SourceCombiner.pdb
