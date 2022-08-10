@@ -44,11 +44,7 @@ namespace SourceCombiner
 
             var outputSource = GenerateCombinedSource(namespaces, filesToParse);
 
-            if (minify)
-            {
-                outputSource = StripComments(outputSource);
-                outputSource = StripWhitespace(outputSource);
-            }
+           
 
             File.WriteAllText(outputFilePath, outputSource);
 
